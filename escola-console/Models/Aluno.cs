@@ -13,8 +13,7 @@ namespace escola_console.Models
         public Guid Matricula { get; set; }
         public string Nome { get; set; }
         public string Sobrenome { get; set; }
-        public string Cpf { get; set; }
-        [Column("Data_Nascimento")]
+        public string Cpf { get; set; }        
         public DateTime DataNascimento { get; set; }
         public int TurmaId { get; set; }
     }

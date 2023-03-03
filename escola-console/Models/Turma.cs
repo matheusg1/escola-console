@@ -16,8 +16,6 @@ namespace escola_console.Models
         public IEnumerable<Materia> Materias { get; set; }
         public IEnumerable<Aluno> Alunos { get; set; }
         public int? QuantidadeMaterias { get; set; }
-
-        [NotMapped]
         public int? QuantidadeAlunos { get; set; }
 
     }
