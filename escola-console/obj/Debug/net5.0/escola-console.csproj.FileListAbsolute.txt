@@ -18,3 +18,7 @@ C:\Users\matheus.silva\Documents\ProjetosPessoais\CSharp\escola-console\escola-c
 C:\Users\matheus.silva\Documents\ProjetosPessoais\CSharp\escola-console\escola-console\escola-console\obj\Debug\net5.0\escola-console.pdb
 C:\Users\matheus.silva\Documents\ProjetosPessoais\CSharp\escola-console\escola-console\escola-console\obj\Debug\net5.0\escola-console.genruntimeconfig.cache
 C:\Users\matheus.silva\Documents\ProjetosPessoais\CSharp\escola-console\escola-console\escola-console\obj\Debug\net5.0\ref\escola-console.dll
+C:\Users\matheus.silva\Documents\ProjetosPessoais\CSharp\escola-console\escola-console\escola-console\bin\Debug\net5.0\FluentResults.dll
+C:\Users\matheus.silva\Documents\ProjetosPessoais\CSharp\escola-console\escola-console\escola-console\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\matheus.silva\Documents\ProjetosPessoais\CSharp\escola-console\escola-console\escola-console\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\matheus.silva\Documents\ProjetosPessoais\CSharp\escola-console\escola-console\escola-console\bin\Debug\net5.0\Microsoft.Extensions.Logging.Abstractions.dll

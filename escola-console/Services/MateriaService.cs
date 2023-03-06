@@ -11,7 +11,7 @@ namespace escola_console.Services
 {
     public class MateriaService
     {
-        public async Task<List<Materia>> GetMateria()
+        public static async Task<List<Materia>> GetMaterias()
         {
             RestClient client = new RestClient("https://localhost:44393/");
             RestRequest request = new RestRequest("Materia/findAll", Method.Get);
@@ -25,7 +25,7 @@ namespace escola_console.Services
             return null;
         }
 
-        public async Task<Materia> GetMateriaById(int id)
+        public static async Task<Materia> GetMateriaById(int id)
         {
             RestClient client = new RestClient("https://localhost:44393/");
             RestRequest request = new RestRequest("Materia/findById", Method.Get).AddParameter("id", id);

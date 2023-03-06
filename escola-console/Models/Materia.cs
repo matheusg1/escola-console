@@ -9,12 +9,14 @@ namespace escola_console.Models
 {
     public class Materia
     {
+        public int MateriaId { get; set; }
+        public string Nome { get; set; }
+        public string Professor { get; set; }
         public int TurmaId { get; set; }
-        public string Codigo { get; set; }
-        public int EscolaId { get; set; }
-        public IEnumerable<Materia> Materias { get; set; }
-        public IEnumerable<Aluno> Alunos { get; set; }
-        public int? QuantidadeMaterias { get; set; }        
-        public int? QuantidadeAlunos { get; set; }
+
+        public override string ToString()
+        {
+            return $"{MateriaId}   {Nome}";
+        }
     }
 }

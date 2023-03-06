@@ -16,5 +16,10 @@ namespace escola_console.Models
         public string Cpf { get; set; }        
         public DateTime DataNascimento { get; set; }
         public int TurmaId { get; set; }
+
+        public override string ToString()
+        {
+            return $"{AlunoId}   {Nome} {Sobrenome}";
+        }
     }
 }

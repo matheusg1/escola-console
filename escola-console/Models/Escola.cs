@@ -14,5 +14,10 @@ namespace escola_console.Models
         public string Endereco { get; set; }
         public IEnumerable<Turma> Turmas { get; set; }
         public int? QuantidadeTurmas { get; set; }
+
+        public override string ToString()
+        {
+            return $"{EscolaId}   {Nome}";
+        }
     }
 }

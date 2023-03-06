@@ -11,7 +11,7 @@ namespace escola_console.Services
 {
     public class TurmaService
     {
-        public async Task<List<Turma>> GetTurmas()
+        public static async Task<List<Turma>> GetTurmas()
         {
             RestClient client = new RestClient("https://localhost:44393/");
             RestRequest request = new RestRequest("Turma/findAll", Method.Get);
@@ -26,7 +26,7 @@ namespace escola_console.Services
             return null;
         }
 
-        public async Task<Turma> GetTurmaById(int id)
+        public static async Task<Turma> GetTurmaById(int id)
         {
             RestClient client = new RestClient("https://localhost:44393/");
             RestRequest request = new RestRequest("Turma/findById", Method.Get).AddParameter("id", id);

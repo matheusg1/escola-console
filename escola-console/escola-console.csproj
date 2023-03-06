@@ -7,11 +7,16 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Escolas\" />
-    <Folder Include="Turma\" />
+    <Compile Remove="Escolas\**" />
+    <Compile Remove="Turma\**" />
+    <EmbeddedResource Remove="Escolas\**" />
+    <EmbeddedResource Remove="Turma\**" />
+    <None Remove="Escolas\**" />
+    <None Remove="Turma\**" />
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="FluentResults" Version="3.15.2" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="5.0.2" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
     <PackageReference Include="RestSharp" Version="108.0.3" />

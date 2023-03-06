@@ -1,14 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "tvj6aHrFYQcOH2BrUsbvhn8kqraH6lvF5JlRH1Myo2yhZeZTAxJRoiZjlk3eyw7xsoaPJ2SqGCiIEJ6lbveUBQ==",
+  "dgSpecHash": "qL5qPQehgDpOMLNlMMpDWAH1vrKUAes2DjNf4Puz68fBiBy+YtB4Ua9G+vSk2aboSlC1VXe6ybwo46QsQJ4f4w==",
   "success": true,
   "projectFilePath": "C:\\Users\\matheus.silva\\Documents\\ProjetosPessoais\\CSharp\\escola-console\\escola-console\\escola-console\\escola-console.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\matheus.silva\\.nuget\\packages\\fluentresults\\3.15.2\\fluentresults.3.15.2.nupkg.sha512",
     "C:\\Users\\matheus.silva\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.2\\microsoft.extensions.dependencyinjection.5.0.2.nupkg.sha512",
     "C:\\Users\\matheus.silva\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\matheus.silva\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.1\\microsoft.extensions.logging.abstractions.6.0.1.nupkg.sha512",
     "C:\\Users\\matheus.silva\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512",
     "C:\\Users\\matheus.silva\\.nuget\\packages\\restsharp\\108.0.3\\restsharp.108.0.3.nupkg.sha512",
-    "C:\\Users\\matheus.silva\\.nuget\\packages\\system.text.json\\5.0.1\\system.text.json.5.0.1.nupkg.sha512"
+    "C:\\Users\\matheus.silva\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\matheus.silva\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\matheus.silva\\.nuget\\packages\\system.text.json\\5.0.1\\system.text.json.5.0.1.nupkg.sha512",
+    "C:\\Users\\matheus.silva\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
   ],
   "logs": []
 }

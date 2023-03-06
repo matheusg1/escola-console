@@ -18,5 +18,9 @@ namespace escola_console.Models
         public int? QuantidadeMaterias { get; set; }
         public int? QuantidadeAlunos { get; set; }
 
+        public override string ToString()
+        {
+            return $"{TurmaId}   {Codigo}";
+        }
     }
 }

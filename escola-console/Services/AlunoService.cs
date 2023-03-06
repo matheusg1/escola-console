@@ -11,7 +11,7 @@ namespace escola_console.Services
 {
     public class AlunoService
     {
-        public async Task<List<Aluno>> GetAluno()
+        public static async Task<List<Aluno>> GetAlunos()
         {
             RestClient client = new RestClient("https://localhost:44393/");
             RestRequest request = new RestRequest("Aluno/findAll", Method.Get);
@@ -26,7 +26,7 @@ namespace escola_console.Services
             return null;
         }
 
-        public async Task<Aluno> GetAlunoById(int id)
+        public static async Task<Aluno> GetAlunoById(int id)
         {
             RestClient client = new RestClient("https://localhost:44393/");
             RestRequest request = new RestRequest("Aluno/findById", Method.Get).AddParameter("id", id);
